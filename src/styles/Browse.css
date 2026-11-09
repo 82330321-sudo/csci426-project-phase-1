@@ -1,0 +1,45 @@
+.browse-container {
+  padding: 40px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.cart-summary {
+  float: right;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.books-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 220px;
+  border-radius: 6px;
+}
+
+.book-card .price {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.book-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

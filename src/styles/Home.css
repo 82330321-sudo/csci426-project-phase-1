@@ -1,0 +1,19 @@
+.home {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.home p {
+  font-size: 18px;
+  color: #555;
+}
+
+.home button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #121619;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
