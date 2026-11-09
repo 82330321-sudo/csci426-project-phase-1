@@ -48,7 +48,7 @@ function Browse() {
             <p><strong>Author:</strong> {book.author}</p>
             <p><strong>Category:</strong> {book.category}</p>
             <p className="price">Price: ${book.price}</p>
-            <button onClick={() => addToCart(book)}>Purchase Book</button>
+            <button onClick={() => addToCart(book)}>Buy Now</button>
           </div>
         ))}
       </div>
